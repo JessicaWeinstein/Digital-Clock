@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron&display=swap);
+
+*,*::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing: boarder-box;
+    font-family:orbitron;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+#background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #48A7B5;
+    color: #ffffff;
+  
+}
+
+.clockContainer{
+
+}
+
+#clock{
+    font-size:80px;
+}
+
